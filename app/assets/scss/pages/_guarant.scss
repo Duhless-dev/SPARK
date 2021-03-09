@@ -1,0 +1,64 @@
+.guarant{
+  padding: 120px 0px;
+  &__inner{
+      display: flex;
+      align-items: center;
+  }
+  &__descr{
+      max-width: 50%;
+      width: 100%;
+      min-height: 360px;
+      border: 2px solid #B71313;
+      border-left: none;
+      display: flex;
+      padding-right: 30px;
+      align-items: center;
+      justify-content: flex-end;
+      h3{
+          max-width: 635px;
+          width: 100%;
+          text-transform: uppercase;
+          text-align: center;
+          color: #D6D6D6;
+          font-size: 20px;
+          line-height: 37px;
+          font-family:'Monceratt-Medium';
+      }
+  }
+  &__info{
+      margin-left: 30px;
+      &-item{
+          padding-left: 60px;
+          position: relative;
+          &+.guarant__info-item{
+            margin-top: 40px;
+          }
+          &::before{
+            content:"";
+            position: absolute;
+            width: 26px;
+            height: 24px;
+            background-image: url(../../img/guarant/point.svg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+      }
+      &-title{
+        font-size: 20px;
+        font-family:'Monceratt-SemiBold';
+        color: #ffffff;
+        margin-bottom:15px;
+        text-transform: uppercase;
+      }
+      &-text{
+        font-size: 15px;
+        color: #D6D6D6;
+        font-family: 'Bahinshift';
+        max-width: 460px;
+      }
+  }
+}

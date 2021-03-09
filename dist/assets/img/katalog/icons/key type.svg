@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-11.8481,-185.812)">
+        <g id="Тип-клавиш" serif:id="Тип клавиш" transform="matrix(0.0953478,0,0,0.0953478,12.0981,174.524)">
+            <path d="M0,121L0,391L512,391L512,121L0,121ZM482,361L30,361L30,151L482,151L482,361Z" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="61" y="181" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="121" y="181" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="181" y="181" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="241" y="181" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="301" y="181" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="61" y="241" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="121" y="241" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="181" y="241" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="241" y="241" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="301" y="241" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="361" y="241" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="421" y="241" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="61" y="301" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="361" y="301" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="421" y="301" width="30" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="121" y="301" width="210" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+            <rect x="361" y="181" width="90" height="30" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:5.24px;"/>
+        </g>
+    </g>
+</svg>

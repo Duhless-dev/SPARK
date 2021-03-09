@@ -1,0 +1,122 @@
+.delivery-pay{
+   
+    background-image: url(../../img/delivery-pay/light-left.png);
+    background-size: contain;
+    background-position: -20px top;
+    background-repeat: no-repeat;
+    &__wrapper{
+        padding-top: 90px;
+        background-image: url(../../img/delivery-pay/light-right.png);
+        background-size: contain;
+        background-position: 103% top;
+        background-repeat: no-repeat;
+    }
+    &__inner{
+        display: flex;
+        margin-bottom: 80px;
+    }
+    &__del{
+        padding-right: 45px;
+        padding-left: 50px;
+        max-width: 50%;
+        width: 100%;
+       padding-top: 45px;
+       &-title{
+           text-align: center;
+           font-size: 55px;
+           color: #ffffff;
+           font-family:'Monceratt-SemiBold';
+           margin-bottom: 45px;
+           text-transform: uppercase;    
+       }
+       &-text1{
+        text-transform: uppercase;
+           line-height: 24px;
+          font-size: 15px;
+          color: #D6D6D6;
+          font-family: 'Bahinshift';
+       }
+       &-img{
+           text-align: center; 
+           margin: 30px 0px;
+           img{
+               width: 70px;
+               height: 70px;
+              
+           }
+       }
+       &-text2{
+           text-transform: uppercase;
+        line-height: 24px;
+          font-size: 15px;
+          color: #D6D6D6;
+          font-family: 'Bahinshift';
+       } 
+    }
+    &__payment{
+        padding-top: 45px;
+        padding-left: 50px;
+        border-left: 1px solid #D8D8D8;
+        padding-bottom: 150px;
+        &-title{
+            text-align: center;
+            font-size: 55px;
+            color: #ffffff;
+            font-family:'Monceratt-SemiBold';
+            margin-bottom: 45px;
+            text-transform: uppercase;    
+        }
+    }
+    .payment-info{
+        
+        &__item{
+            display: flex;
+            align-items: center;
+            img{
+                height: 33px;
+                width: 33px;
+                
+            }
+            h5{
+                margin-left: 30px;
+               font-size: 15px;
+               color: #D8D8D8;
+               text-transform: uppercase;
+               font-family: 'Bahinshift';
+            }
+            &+.payment-info__item{
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.delivery-pay__instruction{
+    &-title{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}
+.instruction__item{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 23px 22px 30px;
+    border: 1px solid #808080;
+    margin-bottom: 50px;
+    &-title{
+        font-size: 20px;
+        color: #D8D8D8;
+        font-family:'Monceratt-Medium';
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }
+    &-text{
+        font-size: 15px;
+        color: #D6D6D6;
+        line-height: 24px;
+        text-transform: uppercase;
+        font-family: 'Bahinshift';
+    }
+}

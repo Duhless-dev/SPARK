@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-10072,-6071.88)">
+        <g transform="matrix(1,0,0,1,8670.61,4923.35)">
+            <g id="Стрелка">
+                <path d="M1401.41,1155.75L1408.03,1149.13L1408.83,1149.93L1402.21,1156.55L1401.41,1155.75Z" style="fill:rgb(255,0,0);"/>
+                <path d="M1415.04,1156.55L1407.82,1149.33L1408.62,1148.53L1415.84,1155.75L1415.04,1156.55Z" style="fill:rgb(255,0,0);"/>
+            </g>
+        </g>
+    </g>
+</svg>

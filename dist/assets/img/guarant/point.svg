@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-9762.45,-672.667)">
+        <g transform="matrix(0.0625504,0,0,0.0625504,9770.95,631.257)">
+            <g id="ЗНАЧОК" transform="matrix(1,0,0,1,-127.897,651.428)">
+                <path d="M356.669,189.242C356.594,189.49 356.926,197.56 356.926,204.463L354.624,372.01L3.161,371.157L3.987,22.329L287.007,18.626C293.911,18.626 287.264,18.548 287.007,18.626C286.83,18.68 278.474,18.982 271.57,18.982L12.5,18.982C5.597,18.982 0,24.579 0,31.482L0,363.41C0,370.313 4.051,375.446 10.954,375.446L344.426,375.91C351.328,375.91 356.443,372.97 356.443,366.067L356.926,204.463C356.926,197.56 356.715,189.089 356.669,189.242Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:15.99px;"/>
+                <path d="M381.795,18.982C381.416,19.445 378.435,22.323 373.552,27.204L172.033,228.725L119.373,180.217C114.491,175.336 111.236,173.652 110.375,173.801C109.656,173.926 114.492,175.335 119.373,180.217L172.033,228.725C172.124,228.692 172.351,228.909 172.033,228.725C171.707,228.538 172.065,229.31 172.033,228.725L373.552,27.204C378.435,22.322 383.238,17.22 381.795,18.982Z" style="fill:none;fill-rule:nonzero;stroke:rgb(183,19,19);stroke-width:15.99px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

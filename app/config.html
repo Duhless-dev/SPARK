@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.min.css"/>
+    <link href="./assets/img/main/icons/layer-290.svg" rel="icon" type="image/svg" />
+    <title>SPARK PC</title>
+</head>
+<body>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+  
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        var player;
+
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '408',
+          width: '710',
+          videoId: 'BvrQq1yiiSs',
+          playerVars: { 'autoplay': 0, 'controls': 0 },
+          events: {
+          }
+        });
+      }
+       </script> 
+<div class="wrapper">
+    <div class="content">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="#.html">
+                            <img src="./assets/img/main/icons/layer-290.svg" alt="" class="logo-mini">
+                            <img src="./assets/img/main/icons/white.svg" alt="" class="logo-text" style="max-width: 200px; height: 50px; width: 100%;">
+                        </a>    
+                    </div>
+                    <menu class="header__menu">
+                        <ul class="header__list">
+                            <li class="header__list-item">
+                                <a class="header__list-link shadow-guidance header__list-item--active" href="#.html">ГЛАВНАЯ </a>
+                            </li>
+                            <li class="header__list-item ">
+                                <a class="header__list-link shadow-guidance " href="https://frontend-preview.ru/delivery-pay.html">ОПЛАТА И ДОСТАВКА</a>
+                            </li>
+                            <li class="header__list-item ">
+                                <a class="header__list-link shadow-guidance " href="https://frontend-preview.ru/guarant.html">ГАРАНТИЯ</a>
+                            </li>
+                            <li class="header__list-item ">
+                                <a class="header__list-link shadow-guidance" href="https://frontend-preview.ru/contacts.html">КОНТАКТЫ</a>
+                            </li>                            
+                        </ul>
+                    </menu>
+                    <div class="header__contacts">
+                        <a href="tel:89775502495"><img src="./assets/img/main/icons/Phone.svg" alt=""></a>
+                        <a href="#"><img src="./assets/img/main/icons/vk-icon.svg" alt=""></a>
+                        <button class = "header-cart"><img src="./assets/img/main/icons/cart-icon.svg" alt="">
+                            <div class="cart-counter"></div>
+                        </button>
+                        <button class="header__burger">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="preloader">
+            <img  src="./assets/img/main/icons/layer-290.svg" alt="">
+        </div>
+        <div class="config-preview page-preview" style="background-image: url(./assets/img/config/preview_bg.png);">
+            <div class="container">
+                <div class="config-preview__inner">
+                    <h1 class="config-title page-title">
+                        Конфигуратор
+                       <span></span>
+                   </h1>
+                   <div class="breadcrumb config-breadcrumb" style = 'display: none;'>
+                       <ul class="breadcrumb__list">
+                           <li class="breadcrumb__list-item">
+                               <a href="#">Главная</a>
+                            </li>
+                           <li class="breadcrumb__list-item">
+                               <a href="#">Игровые Компьютеры</a>
+                            </li>
+                           <li class="breadcrumb__list-item">
+                               <a href="#">Конфигуратор</a>
+                            </li>
+                       </ul>
+                   </div>
+               </div>
+            </div>    
+        </div>
+        <div class="config-links">
+            <div class="container">
+                <div class="config-links__inner">
+                    <div class="config-links__komp">
+                        <a href="#">ИГРОВЫЕ КОМПЬЮТЕРЫ</a>
+                    </div>
+                    <div class="config-links__perif">
+                        <a href="#">АКСЕССУАРЫ И ПЕРИФЕРИЯ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="configurator" style="background-image: url(./assets/img/config/light_left.png);">
+            <div class="configurator__wrapper"style="background-image: url(./assets/img/config/light_right.png);">
+                <div class="container">
+                    <div class="configurator__inner">
+                        <div class="configurator__table">
+                            <div class="configurator__table-list">
+                                <a class="configurator__table-item" href="#body">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/body.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>Корпус</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href="#video">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/video.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>ВИДЕОКАРТА</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href="#proc">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/proc.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>Процессор</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href ="#mat">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/mat.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>Материнская Плата</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href="#ram">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/ram.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>ОПЕРАТИВНАЯ ПАМЯТЬ</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href = "#ssd">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/ssd.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>SSD Накопитель</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href="#ssd2">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/ssd.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>SSD Накопитель 2</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href = '#hdd'>
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/hdd.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>Жесткий ДИСК</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href='#energy'>
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/energy.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>Блок ПИТАНИЯ</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href="#cool">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/kuler.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>охлаждение</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href = "#sound">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/sound.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>Звуковая Карта</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href = "#dvd">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/dvd.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>DVD - привод</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href = "#wifi">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/wifi.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>WIFI-Адаптер</h5>
+                                    </div>
+                                </a>
+                                <a class="configurator__table-item" href="#os">
+                                    <div class="configurator__table-img" style = "background-image: url(./assets/img/config/icons/os.svg);">
+                                    </div>
+                                    <div class="configurator__table-title">
+                                        <h5>WINDOWS</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="configurator__content " data-simplebar>
+                            <div class="configurator__content-list">
+                                <div class="configurator__content-item" id = "body">
+                                    <div class="configurator__content-title">
+                                        <h4>Корпус</h4>
+                                    </div>
+                                    <div class="configurator__content-inner config-tabs">
+                                        <div class="config-tabs__buttons">
+                                            <button class="config-tabs__btn-all">Все</button>
+                                            <button data-id="AeroCool">AEROCOOL</button>
+                                            <button data-id="ZALMAN">ZALMAN</button>
+                                            <button data-id="POWERCASE">POWERCASE</button>
+                                            <button data-id="ЕЩЕ">ЕЩЕ</button>
+                                        </div>
+                                            <div class="config-tabs__content">
+                                                <div class="config-tabs__content-wrapper">
+                                                    <div class="config-tabs__content-items content-list" data-id="AeroCool">
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/body1.png" data-name = "AeroCool|VS-1 Window Black" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price = "1000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config" type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">Корпус AeroCool VS-1 Window Black</span>
+                                                                <span class = "config-differ"></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/body2.png" data-name = "AeroCool|cylon Black" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price = "2000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">Корпус AeroCool cylon Black</span>
+                                                                <span class = "config-differ">+ 1300</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="config-tabs__content-items content-list" data-id="Zalman">
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/body3.png" data-name = "Zalman|VS-1 Window Black" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price = "1500">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config" type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">Корпус Zalman VS-1 Window Black</span>
+                                                                <span class = "config-differ"></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/body4.png" data-name = "Zalman|cylon Black" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price = '1000'>
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">Корпус Zalman cylon Black</span>
+                                                                <span class = "config-differ">+ 1300</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="config-tabs__content-result" style="background-image: url();"></div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="configurator__content-item " id="video">
+                                    <div class="configurator__content-title">
+                                        <h4>ВИДЕОКАРТА</h4>
+                                    </div>
+                                    <div class="configurator__content-inner config-tabs">
+                                        <div class="config-tabs__buttons">
+                                                <button class="config-tabs__btn-all">Все</button>
+                                                <button data-id = 'RTX 3060'>RTX 3060</button>
+                                                <button data-id = 'RTX 3090'>RTX 3090</button>
+                                        </div>
+                                            <div class="config-tabs__content">
+                                                <div class="config-tabs__content-wrapper">
+                                                    <div class="config-tabs__content-items content-list" data-id = 'RTX 3060'>
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/video1.png" data-name = "GIGABYTE GEFORECE|RTX 3060 TI" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price="5000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">GIGABYTE GEFORECE RTX 3060 TI</span>
+                                                                <span class = "config-differ"></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/video2.png" data-name = "ASUS GEFORECE|RTX 3060 TI" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price = "10000">
+                                                            <div class="content-list__item-info"style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">ASUS GEFORECE RTX 3060 TI</span>
+                                                                <span class = "config-differ">+ 1300</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="config-tabs__content-items content-list" data-id = 'RTX 3090'>
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/video3.png" data-name = "GIGABYTE GEFORECE|RTX 3090 TI" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет"data-price = "15000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">GIGABYTE GEFORECE RTX 3090 TI</span>
+                                                                <span class = "config-differ"></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/video4.png" data-name = "ASUS GEFORECE|RTX 3090 TI" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет"data-price = "10000">
+                                                            <div class="content-list__item-info"style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">ASUS GEFORECE RTX 3090 TI</span>
+                                                                <span class = "config-differ">+ 1300</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="config-tabs__content-result" style="background-image: url();"></div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="configurator__content-item" id = "proc">
+                                    <div class="configurator__content-title">
+                                        <h4>ПРОЦЕССОР</h4>
+                                    </div>
+                                    <div class="configurator__content-inner config-tabs">
+                                        <div class="config-tabs__buttons">
+                                                <button class="config-tabs__btn-all">Все</button>
+                                                <button data-id="Corsair">Corsair</button>
+                                                <button data-id="Kingston">Kingston</button>
+                                        </div>
+                                            <div class="config-tabs__content">
+                                                <div class="config-tabs__content-wrapper">
+                                                    <div class="config-tabs__content-items content-list" data-id="Kingston">
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/proc1.png" data-name = "32gb hyperx|fury ddr4-3200" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет"data-price = "12000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">32gb hyperx fury ddr4-3200</span>
+                                                                <span class = "config-differ"></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="content-list__item"data-img = "./assets/img/config/prot/proc2.png" data-name = "32gb hyperx|predator rgb ddr4-3200" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price = "5000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">32gb hyperx predator rgb ddr4-3200</span>
+                                                                <span class = "config-differ">+ 1300</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="config-tabs__content-items content-list" data-id="Corsair">
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/proc3.png" data-name = "8gb hyperx|fury ddr4-3200" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price = "6000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">8gb hyperx fury ddr4-3200</span>
+                                                                <span class = "config-differ"></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="content-list__item"data-img = "./assets/img/config/prot/proc4.png" data-name = "8gb hyperx|predator rgb ddr4-3200" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price = "8000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">8gb hyperx predator rgb ddr4-3200</span>
+                                                                <span class = "config-differ">+ 1300</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="config-tabs__content-result" style="background-image: url();"></div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="configurator__content-item" id = "mat">
+                                    <div class="configurator__content-title">
+                                        <h4>Материнская Плата</h4>
+                                    </div>
+                                    <div class="configurator__content-inner config-tabs">
+                                        <div class="config-tabs__buttons">
+                                            <button class="config-tabs__btn-all">Все</button>
+                                            <button data-id="AeroCool">AEROCOOL</button>
+                                            <button data-id="Zalman">ZALMAN</button>
+                                            <button data-id="POWERCASE">POWERCASE</button>
+                                            <button data-id="ЕЩЕ">ЕЩЕ</button>
+                                        </div>
+                                            <div class="config-tabs__content">
+                                                <div class="config-tabs__content-wrapper">
+                                                    <div class="config-tabs__content-items content-list" data-id="AeroCool">
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/mat1.png" data-name = "AeroCool|VS-1 Window Black" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет"data-price = "15000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config" type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">Корпус AeroCool VS-1 Window Black</span>
+                                                                <span class = "config-differ"></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/mat2.png" data-name = "AeroCool|cylon Black" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет"data-price = "20000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">Корпус AeroCool cylon Black</span>
+                                                                <span class = "config-differ">+ 1300</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="config-tabs__content-items content-list" data-id="Zalman">
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/mat3.png" data-name = "Zalman|VS-1 Window Black" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет"data-price = "10000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config" type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">Корпус Zalman VS-1 Window Black</span>
+                                                                <span class = "config-differ"></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/mat4.png" data-name = "Zalman|cylon Black" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price = "25000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">Корпус Zalman cylon Black</span>
+                                                                <span class = "config-differ">+ 1300</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="config-tabs__content-result" style="background-image: url();"></div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="configurator__content-item" id = "ram" data-calc="1">
+                                    <div class="configurator__content-title">
+                                        <h4>Оперативная ПАМЯТЬ</h4>
+                                    </div>
+                                    <div class="configurator__content-inner config-tabs">
+                                        <div class="config-tabs__buttons">
+                                                <button class="config-tabs__btn-all">Все</button>
+                                                <button data-id="Corsair">Corsair</button>
+                                                <button data-id="Kingston">Kingston</button>
+                                        </div>
+                                            <div class="config-tabs__content">
+                                                <div class="config-tabs__content-wrapper">
+                                                    <div class="config-tabs__content-items content-list" data-id="Kingston">
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/ram1.png" data-name = "32gb hyperx|fury ddr4-3200" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price="5000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">32gb hyperx fury ddr4-3200</span>
+                                                                <span class = "config-differ"></span>
+                                                                <div class = "config-calc">
+                                                                    <button class="config-calc-plus">+</button>
+                                                                    <span class="config-calc-result">1</span>
+                                                                    <button class="config-calc-minus">-</button>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="content-list__item"data-img = "./assets/img/config/prot/ram2.png" data-name = "32gb hyperx|predator rgb ddr4-3200" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price="6000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">32gb hyperx predator rgb ddr4-3200</span>
+                                                                <span class = "config-differ">+ 1300</span>
+                                                                <div class = "config-calc" style="display: none;">
+                                                                    <button class="config-calc-plus">+</button>
+                                                                    <span class="config-calc-result">1</span>
+                                                                    <button class="config-calc-minus">-</button>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="config-tabs__content-items content-list" data-id="Corsair">
+                                                        <div class="content-list__item" data-img = "./assets/img/config/prot/ram3.png" data-name = "8gb hyperx|fury ddr4-3200" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет" data-price="3000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">8gb hyperx fury ddr4-3200</span>
+                                                                <span class = "config-differ"></span>
+                                                                <div class = "config-calc">
+                                                                    <button class="config-calc-plus">+</button>
+                                                                    <span class="config-calc-result">1</span>
+                                                                    <button class="config-calc-minus">-</button>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="content-list__item"data-img = "./assets/img/config/prot/ram4.png" data-name = "8gb hyperx|predator rgb ddr4-3200" data-info="Материал корпуса:Сталь / Акрил;Встроенные вентиляторы:1 х 120х120 мм;Подсветка вентиляторов:нет;Передняя подсветка:нет"data-price="9000">
+                                                            <div class="content-list__item-info" style="background-image: url(./assets/img/config/icons/info.svg);"></div>
+                                                            <label class="content-list__item-body">
+                                                                <input class="checkbox-config"  type="checkbox" name="checkbox-config">
+                                                                <span class="checkbox-custom"></span>
+                                                                <span class="config-descr">8gb hyperx predator rgb ddr4-3200</span>
+                                                                <span class = "config-differ">+ 1300</span>
+                                                                <div class = "config-calc" style="display: none;">
+                                                                    <button class="config-calc-plus">+</button>
+                                                                    <span class="config-calc-result">1</span>
+                                                                    <button class="config-calc-minus">-</button>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="config-tabs__content-result" style="background-image: url();"></div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="configurator__result config-result" data-img="" data-name = "" data-price = "" data-id="" data-link = "#" data-body=""
+                        data-video="" data-proc="" data-mat = "" data-ram ="" data-ramQuant="">
+                            <div class="config-result__inner">
+                                <div class="config-result__preview" data-preview = "./assets/img/config/prot.png" style = "background-image:url()">
+
+                                </div>
+                                <div class="config-result__price">
+                                    <h3>Цена: <span>0</span> р</h3>
+                                </div>
+                                <div class="config-result__inCart products-button">
+                                    <button class ="products-item__button--active ">В Корзину</button>
+                                </div>
+                                <div class="config-result__total">
+                                    <div class="config-result__total-title">
+                                        <h3>Конфигурация</h3>
+                                    </div>
+                                    <div class="config-result__total-list">
+                                        <div class="config-result__total-item" data-id="body">
+                                            <h5>КОРПУС</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id="video">
+                                            <h5>ВИДЕОКАРТА</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id="proc">
+                                            <h5>ПРОЦЕССОР</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id = "mat">
+                                            <h5>Материнская Плата</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id = "ram">
+                                            <h5>ОПЕРАТИВНАЯ ПАМЯТЬ</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        
+                                        <div class="config-result__total-item" data-id = "ssd">
+                                            <h5>SSD НАКОПИТЕЛЬ</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id = "ssd2">
+                                            <h5>SSD Нкопитель 2</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id = "hdd">
+                                            <h5>Жесткий ДИСК</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id="energy">
+                                            <h5>Блок Питания</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id = "cool">
+                                            <h5>охлаждение</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id = "sound">
+                                            <h5>Звуковая карта</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id = "dvd">
+                                            <h5>DVD - привод</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id = "wifi">
+                                            <h5>WIFI - WIFI-Адаптер</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                        <div class="config-result__total-item" data-id = "os">
+                                            <h5>WINDOWS</h5>
+                                            <p>Не выбрано</p>
+                                        </div>
+                                    </div>
+                                    <div class="config-result__slide">
+                                        <img src="./assets/img/config/icons/arrow.svg" alt="">
+                                    </div>
+                                    <div class="config-result__crash">
+                                        <img src="./assets/img/config/icons/cart.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-config modal-universal">
+            <div class="modal-config__wrapper">
+                <div class="modal-universal__close">
+                    <img src="./assets/img/main/icons/cart-close.svg" alt="">
+                </div>
+                <div class="modal-config__inner">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logo">
+                        <img src="./assets/img/main/icons/logofooter-icon.svg" alt="">
+                    </div>
+                    <div class="footer__content">
+                        <div class="footer__social">
+                            <h5 class="footer__social-title">
+                                МЫ В СОЦ. СЕТЯХ:
+                            </h5>
+                            <div class="footer__item">
+                                <a href="#"><img src="./assets/img/main/icons/vk-icon.svg" alt=""></a>
+                                <a href="#" class= "footer__item-text"> ГРУППА ВКОНТАКТЕ 9 ТЫС. ПОДПИСЧИКОВ</a>
+                            </div>
+                            <div class="footer__item">
+                                <a href="#"><img src="./assets/img/main/icons/inst-icon.svg" alt=""></a>
+                                <a href="#" class= "footer__item-text">ФОТО НАШИХ КОМПЬЮТЕРОВ В INSTAGRAM</a>
+                            </div>
+                        </div>
+                        <div class="footer__menu">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"> 
+                                    <a href="#">ГЛАВНАЯ</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#">Оплата и ДОСТАВКА</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#">ГАРАНТИЯ</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#">КОНТАКТЫ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__contacts">
+                            <h5 class="footer__social-title">
+                                Контактная информация:
+                            </h5>
+                            <div class="footer__item">
+                                <a href="#">
+                                    <img src="./assets/img/main/icons/Phone.svg" alt="">
+                                </a>
+                                <a class= "footer__item-text"href="tel:89775502495">8 (977) 550-24-95</a>  
+                            </div>
+                            <div class="footer__item">
+                                <a href="#">
+                                    <img src="./assets/img/main/icons/whatsapp-icon.svg" alt="">
+                                </a>
+                                <a href="#" class= "footer__item-text">
+                                    8 (977) 550-24-95  
+                                </a>
+                            </div>
+                            <div class="footer__item">
+                                <a href="#">
+                                    <img src="./assets/img/main/icons/location-icon.svg" alt="">
+                                </a>
+                                <a href="#" class= "footer__item-text">улица Толбухина, 9к1, Москва</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<div class="pop-cart modal-universal">
+    <div class="pop-cart__wrapper">
+        <div class="container">
+            <div class="pop-cart__inner" data-simplebar>
+                <div class="modal-universal__close">
+                    <img src="./assets/img/main/icons/cart-close.svg" alt="">
+                </div>
+                <h2 class="pop-cart__title">
+                        Корзина
+                </h2>
+                    <div class="cart-plug">
+                        <div class="cart-plug__inner">
+                            <h6 class="cart-plug__inner-title">Корзина</h6>
+                            <img src="./assets/img/main/icons/cart-plug.svg" alt="">
+                            <h6 class="cart-plug__inner-title">Пуста</h6>
+                        </div>
+                    </div>
+                    <form class="pop-cart__content">
+                        <div class="pop-cart__header">
+                            <div class="pop-cart__header-item">
+                                    товар
+                            </div>
+                            <div class="pop-cart__header-item">
+                                    количество
+                            </div>
+                            <div class="pop-cart__header-item">
+                                    цена
+                            </div>
+                        </div>
+                        <div class="pop-cart__items">
+                        </div>
+                        
+                        <div class="pop-cart__result">
+                            <div class="pop-cart__result-products">
+                                <h5>Товары:</h5>
+                                <span></span>
+                            </div>
+                            <div class="pop-cart__result-total">
+                                    <h5>Итого:</h5>
+                                <span></span> Р
+                            </div>
+                        </div>
+                        <div class="pop-cart__form">
+                            <div class="pop-cart__form-item">
+                                <label for="">
+                                    Ваше имя
+                                </label> 
+                                <input type="text" placeholder="Иван">  
+                            </div>
+                            <div class="pop-cart__form-item">
+                                <label for="">
+                                    Ваш e-mail
+                                </label> 
+                                <input type="text" placeholder="1234@inbox.ru">  
+                            </div>
+                        </div>
+                        <div class="pop-cart__submit-wrapper">
+                            <button type = "submit" class="modal-btn__submit">Оформить
+                            </button>
+
+                        </div>
+                        
+                    </form>
+            </div> 
+        </div>
+    </div>    
+</div>
+    <script src="js/bundle.js"></script> 
+</body>
+
+</html>
+
+
+

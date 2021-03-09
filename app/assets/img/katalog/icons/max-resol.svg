@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-11.7671,-98.4412)">
+        <g id="Максимальное-разрешение" serif:id="Максимальное разрешение" transform="matrix(0.0956111,0,0,0.0956111,12.2171,93.2501)">
+            <path d="M452,453L60,453C26.914,453 0,426.086 0,393L0,119C0,85.914 26.914,59 60,59L452,59C485.086,59 512,85.914 512,119L512,393C512,426.086 485.086,453 452,453ZM60,99C48.973,99 40,107.973 40,119L40,393C40,404.027 48.973,413 60,413L452,413C463.027,413 472,404.027 472,393L472,119C472,107.973 463.027,99 452,99L60,99ZM432,140L330,140L330,180L392,180L392,243L432,243L432,140ZM181,332L120,332L120,269L80,269L80,372L181,372L181,332Z" style="fill:none;fill-rule:nonzero;stroke:rgb(207,209,209);stroke-width:9.41px;"/>
+        </g>
+    </g>
+</svg>

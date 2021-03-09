@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.min.css"/>
+    <link href="./assets/img/main/icons/layer-290.svg" rel="icon" type="image/svg" />
+    <title>SPARK PC</title>
+</head>
+<body>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+  
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        var player;
+
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '408',
+          width: '710',
+          videoId: 'BvrQq1yiiSs',
+          playerVars: { 'autoplay': 0, 'controls': 0 },
+          events: {
+          }
+        });
+      }
+       </script> 
+<div class="wrapper">
+    <div class="content">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="#.html">
+                            <img src="./assets/img/main/icons/layer-290.svg" alt="" class="logo-mini">
+                            <img src="./assets/img/main/icons/white.svg" alt="" class="logo-text" style="max-width: 200px; height: 50px; width: 100%;">
+                        </a>    
+                    </div>
+                    <menu class="header__menu">
+                        <ul class="header__list">
+                            <li class="header__list-item">
+                                <a class="header__list-link shadow-guidance header__list-item--active" href="#.html">ГЛАВНАЯ </a>
+                            </li>
+                            <li class="header__list-item ">
+                                <a class="header__list-link shadow-guidance " href="https://frontend-preview.ru/delivery-pay.html">ОПЛАТА И ДОСТАВКА</a>
+                            </li>
+                            <li class="header__list-item ">
+                                <a class="header__list-link shadow-guidance " href="https://frontend-preview.ru/guarant.html">ГАРАНТИЯ</a>
+                            </li>
+                            <li class="header__list-item ">
+                                <a class="header__list-link shadow-guidance" href="https://frontend-preview.ru/contacts.html">КОНТАКТЫ</a>
+                            </li>                            
+                        </ul>
+                    </menu>
+                    <div class="header__contacts">
+                        <a href="tel:89775502495"><img src="./assets/img/main/icons/Phone.svg" alt=""></a>
+                        <a href="#"><img src="./assets/img/main/icons/vk-icon.svg" alt=""></a>
+                        <button class = "header-cart"><img src="./assets/img/main/icons/cart-icon.svg" alt="">
+                            <div class="cart-counter"></div>
+                        </button>
+                        <button class="header__burger">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="preloader">
+            <img  src="./assets/img/main/icons/layer-290.svg" alt="">
+        </div>
+        <div class="katalog-preview page-preview" style="background-image: url(./assets/img/katalog/preview-perif.png);">
+            <div class="container">
+                <div class="katalog-preview__inner">
+                    <h1 class="katalog-title page-title">
+                       АКСЕССУАРЫ
+                       <span>И периферия</span>
+                   </h1>
+                   <div class="breadcrumb katalog-breadcrumb">
+                       <ul class="breadcrumb__list">
+                           <li class="breadcrumb__list-item">
+                               <a href="#">Главная</a>
+                            </li>
+                           <li class="breadcrumb__list-item">
+                               <a href="#">Аксесуары и ПЕРИФЕРИЯ</a>
+                            </li>
+                       </ul>
+                   </div>
+               </div>
+            </div>    
+        </div>
+        <div class="other-katalog__link">
+            <a href="#">Игровые Компьютеры</a>
+        </div>
+        <div class="katalog-filterButton katalog-perif">
+            <div class="container">
+                 <button class="filter__burger">
+                    Фильтр
+                 </button>
+                <div class="katalog-filterButton__inner">
+                    <div class="modal-universal__close">
+                        <img src="./assets/img/main/icons/cart-close.svg" alt="">
+                    </div>
+                    <div class="katalog-filterButton__all">
+                        <button type="button" data-filter="all" class ="filter__btn--active">Все</button>
+                    </div>
+                    <div class="katalog-filterButton__item-wrapper">
+                        <div class="katalog-filterButton__item">
+                            <div class="katalog-filterButton__item-button" data-toggle="">
+                                <button class = "filter-perif" type="button" data-btn="monitors">Мониторы</button>
+                            </div>
+                        </div>
+                        <div class="katalog-filterButton__item" >
+                            <div class="katalog-filterButton__item-button" data-toggle="">
+                                <button class = "filter-perif" type="button" data-btn="mouse" >Мышки</button>
+                            </div>
+                        </div>
+                        <div class="katalog-filterButton__item" data-toggle="">
+                            <div class="katalog-filterButton__item-button">
+                                <button class = "filter-perif" type="button" data-btn="keyboards">Клавиатуры</button>
+                            </div>
+                        </div>
+                        <div class="katalog-filterButton__item" data-toggle="">
+                            <div class="katalog-filterButton__item-button">
+                                <button class = "filter-perif" type="button" data-btn="headphones">Наушники</button>
+                            </div>
+                        </div>
+                        <div class="katalog-filterButton__item" data-toggle="">
+                            <div class="katalog-filterButton__item-button">
+                                <button class = "filter-perif" type="button" data-btn="carpets">Коврики</button>
+                            </div>
+                        </div>
+                        <div class="katalog-filterButton__item" data-toggle="">
+                            <div class="katalog-filterButton__item-button">
+                                <button class = "filter-perif" type="button" data-btn="armchairs">Кресло</button>
+                            </div>
+                        </div>
+                        <div class="katalog-filterButton__item" data-toggle="">
+                            <div class="katalog-filterButton__item-button">
+                                <button class = "filter-perif" type="button" data-btn="tables">Столы</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="katalog-products katalog-perif">
+            <div class="container__fluid">
+               <div class="katalog-products__wrapper">
+                    <div class="container">
+                        <div class="katalog-products__inner mix-products">
+                            <div class="katalog-products__item products-item mix mouse visible"  data-img="./assets/img/katalog/mouse.png" data-name = "defender Chimera" data-price = "7000" data-id="" data-link = "#">
+                                <div class="products-item__inner">
+                                    <div class="products-item__img" style="background-image: url(./assets/img/katalog/mouse.png)">
+                                    </div>  
+                                    <div class="products-item__title">
+                                        <h4>Игровая Мышь</h4>
+                                        <span>defender Chimera</span>
+                                    </div>
+                                    <div class="products-item__descr">
+                                        <div class="products-item__descr-item descr-item">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/mouse1.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ИНТЕРФЕЙС:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>USB</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="products-item__descr-item descr-item ">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/headphone2.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ПОДКЛЮЧЕНИЕ:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>ПРОВОД</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="products-item__descr-item descr-item ">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/keyboard2.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ПОДСВЕТКА:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>RGB</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item__price">
+                                        <span>Цена</span>
+                                            7000
+                                        <span>Р.</span>
+                                    </div>
+                                    <div class="products-item__button products-button">
+                                        <button class="products-item__button-cart products-item__button--active">В корзину</button>
+                                        <a href = "#" class="products-item__button-podr products-item__button--active">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="katalog-products__item products-item mix monitors visible"  data-img="./assets/img/katalog/monitor.png" data-name = "ASUS" data-price = "17000" data-id="" data-link = "#">
+                                <div class="products-item__inner">
+                                    <div class="products-item__img" style="background-image: url(./assets/img/katalog/monitor.png)">
+                                    </div>  
+                                    <div class="products-item__title">
+                                        <h4>Игровой Монитор</h4>
+                                        <span>ASUS</span>
+                                    </div>
+                                    <div class="products-item__descr">
+                                        <div class="products-item__descr-item descr-item">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/mouse1.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ИНТЕРФЕЙС:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>USB</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="products-item__descr-item descr-item ">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/headphone2.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ПОДКЛЮЧЕНИЕ:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>ПРОВОД</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="products-item__descr-item descr-item ">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/keyboard2.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ПОДСВЕТКА:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>RGB</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item__price">
+                                        <span>Цена</span>
+                                            17 000
+                                        <span>Р.</span>
+                                    </div>
+                                    <div class="products-item__button products-button">
+                                        <button class="products-item__button-cart products-item__button--active">В корзину</button>
+                                        <a href = "#" class="products-item__button-podr products-item__button--active">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="katalog-products__item products-item mix monitors visible"  data-img="./assets/img/katalog/monitor.png" data-name = "ASUS" data-price = "17000" data-id="" data-link = "#">
+                                <div class="products-item__inner">
+                                    <div class="products-item__img" style="background-image: url(./assets/img/katalog/monitor.png)">
+                                    </div>  
+                                    <div class="products-item__title">
+                                        <h4>Игровой Монитор</h4>
+                                        <span>ASUS</span>
+                                    </div>
+                                    <div class="products-item__descr">
+                                        <div class="products-item__descr-item descr-item">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/mouse1.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ИНТЕРФЕЙС:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>USB</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="products-item__descr-item descr-item ">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/headphone2.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ПОДКЛЮЧЕНИЕ:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>ПРОВОД</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="products-item__descr-item descr-item ">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/keyboard2.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ПОДСВЕТКА:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>RGB</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item__price">
+                                        <span>Цена</span>
+                                            17 000
+                                        <span>Р.</span>
+                                    </div>
+                                    <div class="products-item__button products-button">
+                                        <button class="products-item__button-cart products-item__button--active">В корзину</button>
+                                        <a href = "#" class="products-item__button-podr products-item__button--active">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="katalog-products__item products-item mix mouse visible"  data-img="./assets/img/katalog/mouse.png" data-name = "defender Chimera" data-price = "7000" data-id="" data-link = "#">
+                                <div class="products-item__inner">
+                                    <div class="products-item__img" style="background-image: url(./assets/img/katalog/mouse.png)">
+                                    </div>  
+                                    <div class="products-item__title">
+                                        <h4>Игровая Мышь</h4>
+                                        <span>defender Chimera</span>
+                                    </div>
+                                    <div class="products-item__descr">
+                                        <div class="products-item__descr-item descr-item">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/mouse1.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ИНТЕРФЕЙС:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>USB</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="products-item__descr-item descr-item ">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/headphone2.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ПОДКЛЮЧЕНИЕ:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>ПРОВОД</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="products-item__descr-item descr-item ">
+                                            <div class="descr-item__img">
+                                                <img src="./assets/img/katalog/icons/keyboard2.svg" alt="">
+                                            </div>
+                                            <div class="descr-item__info">
+                                                <div class="descr-item__info-title">
+                                                    <h5>ПОДСВЕТКА:</h5>
+                                                </div>
+                                                <div class="descr-item__info-text">
+                                                    <h4>RGB</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products-item__price">
+                                        <span>Цена</span>
+                                            7000
+                                        <span>Р.</span>
+                                    </div>
+                                    <div class="products-item__button products-button">
+                                        <button class="products-item__button-cart products-item__button--active">В корзину</button>
+                                        <a href = "#" class="products-item__button-podr products-item__button--active">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>                          
+                        </div>
+                        
+                    </div>
+               </div> 
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logo">
+                        <img src="./assets/img/main/icons/logofooter-icon.svg" alt="">
+                    </div>
+                    <div class="footer__content">
+                        <div class="footer__social">
+                            <h5 class="footer__social-title">
+                                МЫ В СОЦ. СЕТЯХ:
+                            </h5>
+                            <div class="footer__item">
+                                <a href="#"><img src="./assets/img/main/icons/vk-icon.svg" alt=""></a>
+                                <a href="#" class= "footer__item-text"> ГРУППА ВКОНТАКТЕ 9 ТЫС. ПОДПИСЧИКОВ</a>
+                            </div>
+                            <div class="footer__item">
+                                <a href="#"><img src="./assets/img/main/icons/inst-icon.svg" alt=""></a>
+                                <a href="#" class= "footer__item-text">ФОТО НАШИХ КОМПЬЮТЕРОВ В INSTAGRAM</a>
+                            </div>
+                        </div>
+                        <div class="footer__menu">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"> 
+                                    <a href="#">ГЛАВНАЯ</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#">Оплата и ДОСТАВКА</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#">ГАРАНТИЯ</a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#">КОНТАКТЫ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__contacts">
+                            <h5 class="footer__social-title">
+                                Контактная информация:
+                            </h5>
+                            <div class="footer__item">
+                                <a href="#">
+                                    <img src="./assets/img/main/icons/Phone.svg" alt="">
+                                </a>
+                                <a class= "footer__item-text"href="tel:89775502495">8 (977) 550-24-95</a>  
+                            </div>
+                            <div class="footer__item">
+                                <a href="#">
+                                    <img src="./assets/img/main/icons/whatsapp-icon.svg" alt="">
+                                </a>
+                                <a href="#" class= "footer__item-text">
+                                    8 (977) 550-24-95  
+                                </a>
+                            </div>
+                            <div class="footer__item">
+                                <a href="#">
+                                    <img src="./assets/img/main/icons/location-icon.svg" alt="">
+                                </a>
+                                <a href="#" class= "footer__item-text">улица Толбухина, 9к1, Москва</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<div class="pop-cart modal-universal">
+    <div class="pop-cart__wrapper">
+        <div class="container">
+            <div class="pop-cart__inner"  data-simplebar>
+                <div class="thanks-popup">
+                    <div class="thanks-popup__inner">
+                        <img src="./assets/img/katalog/icons/success.svg" alt="">
+                        <h5>Заказ оформлен!</h5>
+                        <p>Мы с вами свяжемся в ближайшее время для уточнеения деталей заказа</p>
+                    </div>
+                </div>
+                <div class="modal-universal__close">
+                    <img src="./assets/img/main/icons/cart-close.svg" alt="">
+                </div>
+                <h2 class="pop-cart__title">
+                        Корзина
+                </h2>
+                    <div class="cart-plug"style="display: none;">
+                        <div class="cart-plug__inner">
+                            <h6 class="cart-plug__inner-title">Корзина</h6>
+                            <img src="./assets/img/main/icons/cart-plug.svg" alt="">
+                            <h6 class="cart-plug__inner-title">Пуста</h6>
+                        </div>
+                    </div>
+                    <form action="mail.php" class="pop-cart__content">
+                        <input type="hidden" name="admin_email[]" value="n8926355157@inbox.ru">
+                        <input type="hidden" name="form_subject" value="Заявка с сайта Сайт">
+                        <div class="pop-cart__header">
+                            <div class="pop-cart__header-item">
+                                    товар
+                            </div>
+                            <div class="pop-cart__header-item">
+                                    количество
+                            </div>
+                            <div class="pop-cart__header-item">
+                                    цена
+                            </div>
+                        </div>
+                        <div class="pop-cart__items">
+                        </div>
+                        
+                        <div class="pop-cart__result">
+                            <div class="pop-cart__result-products">
+                                <h5>Товары:</h5>
+                                <span></span>
+                            </div>
+                            <div class="pop-cart__result-total">
+                                    <h5>Итого:</h5>
+                                <span></span> Р
+                            </div>
+                        </div>
+                        <div class="pop-cart__form">
+                            <div class="pop-cart__form-item">
+                                <label for="Имя">
+                                    Ваше имя
+                                </label> 
+                                <input type="text" name = "name" placeholder="Иван" data-validate-field="name"> 
+                                 
+                            </div>
+                            <div class="pop-cart__form-item">
+                                <label for="Телефон">
+                                    Ваш Телефон
+                                </label> 
+                                <input type="tel" name = "tel" placeholder="+7 (999) 999-99-99" data-validate-field="tel">  
+                            </div>
+                        </div>
+                        <div class="pop-cart__submit-wrapper">
+                            <button type = "submit" class="modal-btn__submit">Оформить
+                            </button>
+
+                        </div>
+                        
+                    </form>
+            </div> 
+        </div>
+    </div>    
+</div>
+   
+
+
+
+<script src="js/bundle.js"></script>  
+</body>
+
+</html>
